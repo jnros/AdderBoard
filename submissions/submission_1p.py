@@ -183,6 +183,7 @@ def build_model():
             "tied embedding (single scalar c -> full vocab table)",
             "gate threshold tied to embedding scale: g = alpha*c",
             "derived norm and value strengths from c",
+            "derived gate term: gate[1] = 128*c",
             "hardcoded Q angle phi (positional constant)",
             "hardcoded carry pathway amplitude",
         ],
